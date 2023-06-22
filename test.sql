@@ -7,7 +7,10 @@ from hr.emp a
 select a.*, b.dname 
 from hr.emp a
 	join hr.dept b on a.deptno = b.deptno
-where job = 'SALESMAN';
+where job = 'S
+
+
+ALESMAN';
 	
 -- 부서명 SALES와 RESEARCH의 소속 직원들의 부서명, 직원번호, 직원명, JOB 그리고 과거 급여 정보 추출 
 select a.dname, b.empno, b.ename, b.job, c.fromdate, c.todate, c.sal 
